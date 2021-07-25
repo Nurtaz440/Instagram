@@ -1,0 +1,2 @@
+rootProject.name = "InsagramDemo"
+include ':app'

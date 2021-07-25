@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">name</string>
+    <string name="nickname">username</string>
+    <string name="sign_in">Sign In</string>
+    <string name="write_code">write code</string>
+    <string name="instagram">Instagram</string>
+    <string name="muzic_xit">muzic_xit</string>
+    <string name="add_a_comment">    Add a comment</string>
+    <string name="video_chat_with_anyone">Video Chat with Anyone</string>
+    <string name="share_a_link_to_invite_anyone_to_video">Share a link to invite anyone to video</string>
+    <string name="chat_even_if_they_don_t_have_instagram">chat,even if they don\'t have Instagram.</string>
+    <string name="empty">Empty</string>
+    <string name="meesege">Meesege</string>
+    <string name="_205">205</string>
+    <string name="_65k">65k</string>
+    <string name="_288k">288k</string>
+    <string name="post">Post</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="princesa_anna02">princesa_anna02</string>
+    <string name="following_by_abdisamat">Following by abdisamat</string>
+    <string name="and_14_more_your_friends">and 14 more your friends..</string>
+    <string name="follow">Follow</string>
+    <string name="flowers">Flowers</string>
+    <string name="_9_363_views">9,363 views</string>
+    <string name="korolino0145">korolino0145</string>
+    <string name="view_profile">View profile</string>
+    <string name="message">Message</string>
+</resources>

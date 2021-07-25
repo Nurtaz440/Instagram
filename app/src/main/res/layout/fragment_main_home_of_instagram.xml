@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainHomeOfInstagram"
+    >
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/amsterdam"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            android:text="@string/instagram"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:ignore="RtlSymmetry"
+            />
+
+        <ImageView
+            android:id="@+id/chat_message"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="360dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="10dp"
+            android:rotation="90"
+            android:src="@drawable/ic_baseline_offline_bolt_24"
+            tools:ignore="ContentDescription"
+            />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_marginTop="65dp"
+
+
+        >
+
+       <androidx.appcompat.widget.Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:layout_scrollFlags="scroll|enterAlways"
+           android:background="@color/black"
+           >
+
+
+
+
+
+           <HorizontalScrollView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   >
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:layout_margin="4dp"
+                       android:padding="2dp"
+                       android:src="@drawable/hindi1"
+                       app:civ_border_color="@android:color/holo_red_light"
+                       app:civ_border_width="2dp"
+                       />
+
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:layout_margin="4dp"
+                       android:padding="2dp"
+                       android:src="@drawable/holiywwod5"
+                       app:civ_border_color="@android:color/holo_red_light"
+                       app:civ_border_width="2dp"
+                       />
+
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:layout_margin="4dp"
+                       android:padding="2dp"
+                       android:src="@drawable/holiywwod6"
+                       app:civ_border_color="@android:color/holo_red_light"
+                       app:civ_border_width="2dp"
+                       />
+
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:layout_margin="4dp"
+                       android:padding="2dp"
+                       android:src="@drawable/hindi2"
+                       app:civ_border_color="@android:color/holo_red_light"
+                       app:civ_border_width="2dp"
+                       />
+
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:layout_margin="4dp"
+                       android:padding="2dp"
+                       android:src="@drawable/holiywwod7"
+                       app:civ_border_color="@android:color/holo_red_light"
+                       app:civ_border_width="2dp"
+                       />
+
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:layout_margin="4dp"
+                       android:padding="2dp"
+                       android:src="@drawable/hindi3"
+                       app:civ_border_color="@android:color/holo_red_light"
+                       app:civ_border_width="2dp"
+                       />
+
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:layout_margin="4dp"
+                       android:padding="2dp"
+                       android:src="@drawable/hindi4"
+                       app:civ_border_color="@android:color/holo_red_light"
+                       app:civ_border_width="2dp"
+                       />
+
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:layout_margin="4dp"
+                       android:padding="2dp"
+                       android:src="@drawable/hind6"
+                       app:civ_border_color="@android:color/holo_red_light"
+                       app:civ_border_width="2dp"
+                       />
+
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:layout_margin="4dp"
+                       android:padding="2dp"
+                       android:src="@drawable/birds"
+                       app:civ_border_color="@android:color/holo_red_light"
+                       app:civ_border_width="2dp"
+                       />
+
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:layout_margin="4dp"
+                       android:padding="2dp"
+                       android:src="@drawable/hindi1"
+                       app:civ_border_color="@android:color/holo_red_light"
+                       app:civ_border_width="2dp"
+                       />
+
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:layout_margin="4dp"
+                       android:padding="2dp"
+                       android:src="@drawable/dog"
+                       app:civ_border_color="@android:color/holo_red_light"
+                       app:civ_border_width="2dp"
+                       />
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"
+                       android:layout_margin="4dp"
+                       android:padding="2dp"
+                       android:src="@drawable/guitar"
+                       app:civ_border_color="@android:color/holo_red_light"
+                       app:civ_border_width="2dp"
+                       />
+
+
+               </LinearLayout>
+
+
+           </HorizontalScrollView>
+       </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/reyclerview_single_activity"
+
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
